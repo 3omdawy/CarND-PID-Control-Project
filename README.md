@@ -31,7 +31,7 @@ Self-Driving Car Engineer Nanodegree Program
 
 ## Choosing Parameters
 * I tried to obtain the parameters using twiddle (as describes [here](https://github.com/jendrikjoe/UdacityProjects/tree/master/PID-Control-Project) but I could not do it)
-* I initially the parameters given [here](https://github.com/thomasantony/CarND-P09-PID-Control/tree/77e672baef99f3c601ed24ff2fe57fbe85acc261) were applied and good results were obtained then some finetuning is done as explained below
+* Initially the parameters given [here](https://github.com/thomasantony/CarND-P09-PID-Control/tree/77e672baef99f3c601ed24ff2fe57fbe85acc261) were applied and good results were obtained then some finetuning is done as explained below
 
 ### P Parameter
 * The P-Value determines the proportionality between current CTE and the output (steering angle). As CTE is given in meters (which is approximatly between -5 and 5 on the pavement) and the steering angle as a value between -1 and 1, the P-value is expected to have an order of magnitude of approximately 0.1 as this would lead a steering angle of approx. 0.5 when being at the edge of the road. 0.5 is the steepest acceptable possible steering value.
